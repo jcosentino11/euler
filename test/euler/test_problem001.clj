@@ -1,6 +1,6 @@
 (ns euler.test-problem001
 	(:require [clojure.test :refer :all]
-						[euler.problem001 :as p1]))
+		[euler.problem001 :as p1]))
 
 (deftest problem1
 	(testing "problem 1"
