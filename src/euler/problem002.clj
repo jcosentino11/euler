@@ -12,4 +12,4 @@
 	within the Fibonacci sequence"
 	(reduce + (filter even? (take-while #(<= % max) (fib-seq)))))
 
-(def solution (even-fib-sum 4000000))
+(def solution #(even-fib-sum 4000000))

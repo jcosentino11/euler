@@ -5,7 +5,7 @@
 (deftest problem1
 	(testing "problem 1"
 		(testing "solution"
-			(is (= p1/solution 233168)))
+			(is (= (p1/solution) 233168)))
 		(testing "other cases"
 			(is (= (p1/multiples3and5 0) 0))
 			(is (= (p1/multiples3and5 1) 0))

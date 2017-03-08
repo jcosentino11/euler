@@ -5,7 +5,7 @@
 (deftest problem2
 	(testing "problem 2"
 		(testing "solution"
-			(is (= p2/solution 4613732)))
+			(is (= (p2/solution) 4613732)))
 		(testing "other cases"
 			(is (= (p2/even-fib-sum 0) 0))
 			(is (= (p2/even-fib-sum 1) 0))
