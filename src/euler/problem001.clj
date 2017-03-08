@@ -7,4 +7,4 @@
 	a given maximum (exclusive)"
 	(reduce + (set (concat (range 0 max 3) (range 0 max 5)))))
 
-(def solution #(multiples3and5 1000))
+(def solution (multiples3and5 1000))
