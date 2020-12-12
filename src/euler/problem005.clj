@@ -1,7 +1,5 @@
 (ns euler.problem005
-  (:gen-class)
-  (:import (java.lang.Math))
-  (:require [clojure.string :as str]))
+  (:gen-class))
 
 (defn divisible
   "True if i is divisible by n"
