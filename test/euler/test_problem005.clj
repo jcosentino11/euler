@@ -4,7 +4,13 @@
 
 (deftest problem5
   (testing "problem 5"
-    ; (testing "solution"
-    ;   (is (= (p5/solution) ????)))
+    (testing "solution"
+      (is (= (p5/solution) 232792560)))
+    (testing "lcm"
+      (is (= (p5/lcm [21 6]) 42))
+      (is (= (p5/lcm 21 6) 42)))
+    (testing "gcd"
+      (is (= (p5/gcd [270 192]) 6))
+      (is (= (p5/gcd 270 192) 6)))
     (testing "example case"
-      (is (= (p5/smallest-multiple 10) 2520)))))
+      (is (= (time (p5/smallest-multiple 10)) 2520)))))
